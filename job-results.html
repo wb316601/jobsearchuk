@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search UK - Job Listings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Search UK</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job-results.html">Job Listings</a></li>
+                <li><a href="manage-job-boards.html">Manage Job Boards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-section">
+            <h2>Search Jobs</h2>
+            <form id="search-form">
+                <input type="text" id="keywords" placeholder="Keywords">
+                <input type="text" id="location" placeholder="Location">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="job-list">
+            <!-- Job listings will be dynamically inserted here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Search UK. All rights reserved.</p>
+    </footer>
+    <script src="job-results.js"></script>
+</body>
+</html>

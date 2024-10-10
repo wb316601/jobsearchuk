@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search UK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Search UK</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="job-results.html">Job Listings</a></li>
+                <li><a href="manage-job-boards.html">Manage Job Boards</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Find Your Dream Job in Tech</h2>
+            <p>Explore opportunities from multiple job boards in one place</p>
+            <form id="search-form" action="job-results.html" method="get">
+                <input type="text" id="keywords" name="keywords" placeholder="Enter keywords (e.g., JavaScript, Database)" required>
+                <input type="text" id="location" name="location" placeholder="Enter location (e.g., Beccles, Suffolk)" required>
+                <button type="submit" class="cta-button">Search Jobs</button>
+            </form>
+        </section>
+        <section class="features">
+            <h3>Why Use Our Job Board?</h3>
+            <ul>
+                <li>Aggregated listings from top job sites</li>
+                <li>Specialized in tech and IT roles</li>
+                <li>Easy-to-use search and filter options</li>
+                <li>Updated daily with new opportunities</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Search UK. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
